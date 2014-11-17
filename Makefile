@@ -4,7 +4,7 @@ all:
 	flex src/*.l
 	mv *.c src
 	mv *.h src
-	gcc src/*.c -g -o tiger-llvm
+	gcc src/*.c -w -g -o tiger-llvm
 clear:
 	rm tiger-llvm -f
 	rm src/tiger.t* -f

@@ -13,6 +13,7 @@ int main(int argc, char **argv)
         exit(1);
     
     pr_exp(stdout, prog, 0);
+    printf("\n");
     
     return 0;
 }

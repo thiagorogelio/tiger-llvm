@@ -51,6 +51,7 @@ void adjust(void)
 "|"	{adjust(); return OR;}
 
 if  	 {adjust(); return IF;}
+array	 {adjust(); return ARRAY;}
 then  	 {adjust(); return THEN;}
 else  	 {adjust(); return ELSE;}
 while  	 {adjust(); return WHILE;}
